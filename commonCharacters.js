@@ -12,6 +12,28 @@
 
 
 
- var commonCharacters = function(string1, string2) {
-   
+ //var commonCharacters = function(string1, string2) {
+  //var result=""
+  //for(i=0;i<string1.length;i++){
+   // for(j=0;j<string2.length;j++){
+     // if(string1[i]===string2[j] && result.indexOf(string1[i])===-1 ){
+       // result= result+string1[i]
+      //}
+    //}
+  //}
+  // return result
+   //}
+   var commonCharacters = function(...string) {
+
+    var result=""
+
+    for(i=0;i<string.length;i++){
+      if(result.indexOf(string[i]!=-1)){
+        result=result+string[i]
+      }
+
+    }
+
    }
+
+   
